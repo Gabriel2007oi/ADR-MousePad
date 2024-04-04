@@ -1,0 +1,280 @@
+body{
+    color: white;
+    background-color: #272727;
+    margin: 0;
+    
+}
+
+header{
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    background-color: #424242cf;
+    padding: 25px;
+    width: 101%;
+    display: inline-flex;
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: #000000 0 0 20px;
+    /* border: solid 3px #1791C8;  */
+    /* border-radius: 25px; */
+}
+
+header img{
+    margin-left: 10px;
+    border-radius: 50%;
+    box-shadow: #1791C8 0 0 20px;
+}
+
+strong{
+    color: #1791C8;
+}
+
+.lados{
+    font-size: 25px;
+    display: inline-flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    /* border-radius: 10px;
+    border: 10px white; */
+}
+
+.left{
+    position: absolute;
+    display: block;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.left h2{
+    font-size: 60px;
+    font-family: Helvetica;
+    margin-left: 280px;
+}
+
+
+.left p{
+    margin-left: 100px;
+    text-align: center;
+    width: 48%;
+}
+
+#button{
+    margin-left: 50px;
+}
+
+.left a{
+    font-family: arial;
+    background-color: #ffffff;
+    border-radius: 1000px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content:space-around;
+    font-size: 20px;
+    margin-top: 20PX;
+    margin-left: 370px;
+    padding: 10px;
+    box-shadow: #ffffff 0 0 12px;
+    /* border: solid 3px #000000; */
+}
+
+.left a:hover{
+    transition: 0.5s;
+    background-color: #1791C8;
+}
+
+.left a:active{
+    transition: 0.2s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: #000000 0 0 12px;
+}
+
+.right{
+    display: inline-flex;
+    height: 100%;
+    margin-top: -50px;
+    margin-bottom: 150px;
+    margin-left: 1050px;
+    margin-right: 0px;
+}
+
+.img_mousepad{
+    margin-top: 70px;
+    margin-right: 220px;
+    /* background-color: #ffffff;
+    border: solid #1791C8 3px; */
+}
+
+#Apresentação{
+    display: grid;
+    place-items: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    font-size: 70px;
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
+    color: #1791C8;
+    font-family: 'Borel', cursive;
+}
+
+.Center{
+    color: #1791C8;
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
+    font-size: 70px;
+    text-align: center;
+    padding: 100px;
+    font-family: 'Borel', cursive;
+}
+
+.Principais_Recursos .left_antes{
+    margin-left: 50px;
+    /* position: absolute; */
+}
+
+.Principais_Recursos .right_antes{
+    display: flex;
+    margin-left: 60px;
+}
+
+.Principais_Recursos p{
+    width: 48%;
+    font-size: 30px;
+}
+
+
+
+.R_lados{
+    font-size: 25px;
+    display: inline-flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    /* border-radius: 10px;
+    border: 10px white; */
+    
+}
+
+.R_lados .left_antes{
+    display: block;
+    position: absolute;
+
+}
+
+.R_lados .right_antes{
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 1150px;
+}
+
+.R_lados .right_antes img{
+
+    border-radius: 30px;
+    box-shadow: #1791C8 0 0 35px;
+}
+
+.R_lados .left_antes h2{
+    font-size: 45px;
+}
+
+
+
+.Beneficios .B_left{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.Beneficios .B_right{
+    display: flex;
+    margin-right: 60px;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 1150px;
+    
+}
+
+.Beneficios .B_right img{
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: #1791C8 0 0 35px;
+}
+
+.Beneficios p{
+    width: 48%;
+    font-size: 30px;
+}
+
+#Benef{
+    font-size: 70px;
+}
+
+.B_lados{
+    font-size: 25px;
+    display: inline-flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    padding-bottom: 150px;
+    /* border-radius: 10px;
+    border: 10px white; */
+ 
+}
+
+footer{
+    position: absolute;
+    width: 110%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-image: url(Rodapé.png);
+    background-position: center;
+    background-size: 100%;
+    box-shadow: #1791C8 0 0 60px;
+    margin-top: 250px;
+}
+
+#logo{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    
+}
+
+#apps{
+    display: inline-flex;
+    margin-top: 190px;
+
+}
+
+#app1, #app3{
+    margin-top: 20px;
+}
+
+#apps img{
+    filter: grayscale(1);
+}
+
+#apps img:hover{
+    transition: 1s;
+    filter: grayscale(0);
+}
+
+
+#rodapé{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#copy{
+    font-size: 22px;
+    text-align: center;
+}
+
